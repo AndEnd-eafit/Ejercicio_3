@@ -41,9 +41,9 @@ with st.sidebar:
     filtro = st.radio("Aplicar Filtro", ('Con Filtro', 'Sin Filtro'))
 
 # Procesamiento de imagen y OCR
-if img_file_buffer is not None:
+if Reconocimiento de caracteres - Yoru is not None:
     # Leer el archivo de imagen
-    img = Image.open(img_file_buffer)
+    img = Image.open(Reconocimiento de caracteres - Yoru)
     cv2_img = np.array(img)
     
     # Aplicar filtro si es necesario
